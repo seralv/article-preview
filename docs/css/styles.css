@@ -442,3 +442,35 @@ main .wrapper-footer .image-icon {
   padding: 8px;
   background-color: #ecf2f8;
 }
+main .content-footer {
+  background-color: #48556a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+  display: none;
+  grid-template-columns: 2fr 1fr;
+  height: 70px;
+  width: 340px;
+  position: relative;
+  bottom: -229px;
+  animation: 0.5s blink ease;
+}
+main .content-footer.content-footer.active {
+  display: grid;
+}
+main .content-footer .social-media {
+  text-align: center;
+  line-height: 70px;
+}
+main .content-footer .social-media span {
+  color: #6d7f97;
+  letter-spacing: 4px;
+}
+main .content-footer .social-media i {
+  font-size: 16px;
+  padding: 0 5px;
+}
+main .content-footer .card-footer-share--dark {
+  position: relative;
+  left: -4px;
+}
